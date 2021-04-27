@@ -18,3 +18,6 @@ Differences from Impulse Calculator 2000:
 This version was mostly made for fun and programming experience, but it still works just the same, with some limitations as stated above
 
 The library Console Tools was used to make displaying data and user input easier: https://github.com/lastunicorn/ConsoleTools
+
+More info can be found here: https://denneth.nl/impulse-calculator-2000/
+And Impulse Calculator 2000, with a actual GUI, can be found here: https://github.com/denneth9/impulse-calc-2000
