@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "impulse-calc-1983/1.0.0": {
+        "dependencies": {
+          "ConsoleTools": "0.5.4"
+        },
+        "runtime": {
+          "impulse-calc-1983.dll": {}
+        }
+      },
+      "ConsoleTools/0.5.4": {
+        "runtime": {
+          "lib/netcoreapp2.2/DustInTheWind.ConsoleTools.dll": {
+            "assemblyVersion": "0.5.4.16658",
+            "fileVersion": "0.5.4.16658"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp2.2/fr/DustInTheWind.ConsoleTools.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp2.2/ro/DustInTheWind.ConsoleTools.resources.dll": {
+            "locale": "ro"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "impulse-calc-1983/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ConsoleTools/0.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zLGx76ls9do1Ab1QpDbVrjBCdduY5Bj8ZTL33l2nmLatYJNXjDfpKgjt9kz4z1+sl39c1xdKFxffpfqeM51RJw==",
+      "path": "consoletools/0.5.4",
+      "hashPath": "consoletools.0.5.4.nupkg.sha512"
+    }
+  }
+}
