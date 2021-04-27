@@ -1,0 +1,17 @@
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\impulse-calc-1983.exe
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\impulse-calc-1983.deps.json
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\impulse-calc-1983.runtimeconfig.json
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\impulse-calc-1983.runtimeconfig.dev.json
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\impulse-calc-1983.dll
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\impulse-calc-1983.pdb
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\obj\Debug\netcoreapp3.1\impulse-calc-1983.csprojAssemblyReference.cache
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\obj\Debug\netcoreapp3.1\impulse-calc-1983.AssemblyInfoInputs.cache
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\obj\Debug\netcoreapp3.1\impulse-calc-1983.AssemblyInfo.cs
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\obj\Debug\netcoreapp3.1\impulse-calc-1983.dll
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\obj\Debug\netcoreapp3.1\impulse-calc-1983.pdb
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\obj\Debug\netcoreapp3.1\impulse-calc-1983.genruntimeconfig.cache
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\obj\Debug\netcoreapp3.1\impulse-calc-1983.csproj.CoreCompileInputs.cache
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\DustInTheWind.ConsoleTools.dll
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\fr\DustInTheWind.ConsoleTools.resources.dll
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\bin\Debug\netcoreapp3.1\ro\DustInTheWind.ConsoleTools.resources.dll
+C:\Users\denne\source\repos\impulse-calc-1983\impulse-calc-1983\obj\Debug\netcoreapp3.1\impulse-calc-1983.csproj.CopyComplete

@@ -183,6 +183,8 @@ namespace impulse_calc_1983
                 //dataGrid.Columns.Add("Specific Impulse (Ns/kg");
                 //Console.WriteLine("Specific Impulse (Ns / kg): " + specificimpulse);
             }
+
+            dataGrid.Rows.Add("Motor Class", motorclass(impulse));
             dataGrid.DisplayBorderBetweenRows = true;
             dataGrid.DisplayColumnHeaders = true;
 
@@ -191,6 +193,111 @@ namespace impulse_calc_1983
             dataGrid.Display();
             Console.WriteLine("Press any key to exit");
             Console.ReadKey();
+        }
+        public static string motorclass(double ns)
+        {
+            //calculate motor classification from newton seconds
+            //i would use a switch statement, but i don't know if / how you can use and compare float values
+            string mc = "";
+            if (ns > 0 && ns < 0.3125)
+            {
+                mc = "Micro";
+            }
+            else if (ns >= 0.3125 && ns < 0.625)
+            {
+                mc = "1/4A";
+            }
+            else if (ns >= 0.625 && ns < 1.25)
+            {
+                mc = "1/2A";
+            }
+            /*else if (ns < 1.26 )
+            {
+                mc = "N/A";
+            }*/
+            else if (ns >= 1.25 && ns < 2.5)
+            {
+                mc = "A";
+            }
+            else if (ns >= 2.5 && ns < 5)
+            {
+                mc = "B";
+            }
+            else if (ns >= 5 && ns < 10)
+            {
+                mc = "C";
+            }
+            else if (ns >= 10 && ns < 20)
+            {
+                mc = "D";
+            }
+            else if (ns >= 20 && ns < 40)
+            {
+                mc = "E";
+            }
+            else if (ns >= 40 && ns < 80)
+            {
+                mc = "F";
+            }
+            else if (ns >= 80 && ns < 160)
+            {
+                mc = "G";
+            }
+            else if (ns >= 160 && ns < 320)
+            {
+                mc = "H";
+            }
+            else if (ns >= 320 && ns < 640)
+            {
+                mc = "I";
+            }
+            else if (ns >= 640 && ns < 1280)
+            {
+                mc = "J";
+            }
+            else if (ns >= 1280 && ns < 2560)
+            {
+                mc = "K";
+            }
+            else if (ns >= 2560 && ns < 5120)
+            {
+                mc = "L";
+            }
+            else if (ns >= 5120 && ns < 10240)
+            {
+                mc = "M";
+            }
+            else if (ns >= 10240 && ns < 20480)
+            {
+                mc = "N";
+            }
+            else if (ns >= 20480 && ns < 40960)
+            {
+                mc = "O";
+            }
+            else if (ns >= 40960 && ns < 81920)
+            {
+                mc = "P";
+            }
+            else if (ns >= 81920 && ns < 163840)
+            {
+                mc = "Q";
+            }
+            else if (ns >= 163840 && ns < 327680)
+            {
+                mc = "R";
+            }
+            else if (ns >= 327680 && ns < 655360)
+            {
+                mc = "S";
+            }
+            else if (ns >= 655360 && ns < 1310720)
+            {
+                mc = "T";
+            }
+
+            return mc;
+            //textBox6.Text = mc; //print output to textbox
         }
     }
 }

@@ -1,0 +1,112 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleTools/0.5.4": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.2/DustInTheWind.ConsoleTools.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.2/DustInTheWind.ConsoleTools.dll": {}
+        },
+        "resource": {
+          "lib/netcoreapp2.2/fr/DustInTheWind.ConsoleTools.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/netcoreapp2.2/ro/DustInTheWind.ConsoleTools.resources.dll": {
+            "locale": "ro"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleTools/0.5.4": {
+      "sha512": "zLGx76ls9do1Ab1QpDbVrjBCdduY5Bj8ZTL33l2nmLatYJNXjDfpKgjt9kz4z1+sl39c1xdKFxffpfqeM51RJw==",
+      "type": "package",
+      "path": "consoletools/0.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "changelog.txt",
+        "consoletools.0.5.4.nupkg.sha512",
+        "consoletools.nuspec",
+        "lib/net45/DustInTheWind.ConsoleTools.dll",
+        "lib/net45/fr/DustInTheWind.ConsoleTools.resources.dll",
+        "lib/net45/ro/DustInTheWind.ConsoleTools.resources.dll",
+        "lib/netcoreapp2.2/DustInTheWind.ConsoleTools.dll",
+        "lib/netcoreapp2.2/fr/DustInTheWind.ConsoleTools.resources.dll",
+        "lib/netcoreapp2.2/ro/DustInTheWind.ConsoleTools.resources.dll",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ConsoleTools >= 0.5.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\denne\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\denne\\source\\repos\\impulse-calc-1983\\impulse-calc-1983\\impulse-calc-1983.csproj",
+      "projectName": "impulse-calc-1983",
+      "projectPath": "C:\\Users\\denne\\source\\repos\\impulse-calc-1983\\impulse-calc-1983\\impulse-calc-1983.csproj",
+      "packagesPath": "C:\\Users\\denne\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\denne\\source\\repos\\impulse-calc-1983\\impulse-calc-1983\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\denne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\denne\\AppData\\Roaming\\Cosmos User Kit\\packages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "ConsoleTools": {
+            "target": "Package",
+            "version": "[0.5.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
